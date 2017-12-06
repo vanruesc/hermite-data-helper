@@ -49,7 +49,6 @@
 	},
 
 	"dependencies": {
-		"rabbit-hole": "0.x.x",
 		"three": "0.88.x"
 	},
 
