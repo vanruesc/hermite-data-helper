@@ -4,7 +4,7 @@ const HermiteDataHelper = require("../build/hermite-data-helper");
 
 module.exports = {
 
-	"OctreeHelper": {
+	"HermiteDataHelper": {
 
 		"can be instantiated": function(test) {
 
