@@ -35,7 +35,7 @@ export class HermiteDataHelper extends Group {
 	 * @param {Boolean} [useEdgeData=true] - Whether edges with intersection points and normals should be created.
 	 */
 
-	constructor(cellPosition, cellSize, data, useMaterialIndices = false, useEdgeData = true) {
+	constructor(cellPosition = null, cellSize = 1, data = null, useMaterialIndices = false, useEdgeData = true) {
 
 		super();
 
