@@ -90,9 +90,14 @@ export class HermiteDataHelper extends Group {
 		this.edges.name = "Edges";
 		this.normals.name = "Normals";
 
-		if(this.validate() === null) {
+		try {
 
+			// Attempt to update right away.
 			this.update(useMaterialIndices, useEdgeData);
+
+		} catch(e) {
+
+			// Don't complain on error.
 
 		}
 
