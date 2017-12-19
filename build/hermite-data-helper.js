@@ -1,5 +1,5 @@
 /**
- * hermite-data-helper v0.0.0 build Dec 06 2017
+ * hermite-data-helper v0.0.1 build Dec 19 2017
  * https://github.com/vanruesc/hermite-data-helper
  * Copyright 2017 Raoul van Rüschen, Zlib
  */
@@ -113,12 +113,45 @@
   				_this.edges.name = "Edges";
   				_this.normals.name = "Normals";
 
-  				_this.update(useMaterialIndices, useEdgeData);
+  				if (_this.validate() === null) {
+
+  						_this.update(useMaterialIndices, useEdgeData);
+  				}
 
   				return _this;
   		}
 
   		createClass(HermiteDataHelper, [{
+  				key: "validate",
+  				value: function validate() {
+
+  						var error = null;
+
+  						if (this.cellPosition === null) {
+
+  								error = new Error("The cell position is not defined");
+  						} else if (this.cellSize <= 0) {
+
+  								error = new Error("Invalid cell size: " + this.cellSize);
+  						} else if (this.data === null) {
+
+  								error = new Error("No data");
+  						} else {
+
+  								if (this.data.empty) {
+
+  										error = new Error("The provided data is empty");
+  								}
+
+  								if (this.data.compressed) {
+
+  										error = new Error("The provided data must be uncompressed");
+  								}
+  						}
+
+  						return error;
+  				}
+  		}, {
   				key: "set",
   				value: function set$$1(cellPosition, cellSize, data) {
 
@@ -136,21 +169,13 @@
 
 
   						var data = this.data;
+  						var error = this.validate();
 
   						this.dispose();
 
-  						if (this.cellPosition === null) {
+  						if (error !== null) {
 
-  								console.error("Invalid cell position");
-  						} else if (this.cellSize <= 0) {
-
-  								console.error("Invalid cell size", this.cellSize);
-  						} else if (data === null || data.empty) {
-
-  								console.error("Invalid data", this.data);
-  						} else if (data.compressed) {
-
-  								console.error("The provided data must be uncompressed", data);
+  								throw error;
   						} else {
 
   								if (useMaterialIndices) {
