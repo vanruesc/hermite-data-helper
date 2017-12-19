@@ -1,5 +1,5 @@
 /**
- * hermite-data-helper v0.0.1 build Dec 19 2017
+ * hermite-data-helper v0.0.2 build Dec 19 2017
  * https://github.com/vanruesc/hermite-data-helper
  * Copyright 2017 Raoul van Rüschen, Zlib
  */
@@ -113,10 +113,9 @@
   				_this.edges.name = "Edges";
   				_this.normals.name = "Normals";
 
-  				if (_this.validate() === null) {
-
+  				try {
   						_this.update(useMaterialIndices, useEdgeData);
-  				}
+  				} catch (e) {}
 
   				return _this;
   		}
