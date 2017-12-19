@@ -39,8 +39,16 @@ console.log(hermiteDataHelper.normals);
 // Use a different cell size, position and data set.
 hermiteDataHelper.set(otherPosition, otherSize, otherData);
 
-// Destroy the helper geometry and rebuild grid points and edges.
-hermiteDataHelper.update(true, true);
+try {
+
+	// Destroy the helper geometry and rebuild grid points and edges.
+	hermiteDataHelper.update(true, true);
+
+} catch(e) {
+
+	// The provided position, size or data is invalid.
+
+}
 
 // Destroy the helper geometry.
 hermiteDataHelper.dispose();
