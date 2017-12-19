@@ -12,6 +12,14 @@ module.exports = {
 			test.ok(helper);
 			test.done();
 
+		},
+
+		"fails with invalid data": function(test) {
+
+			const helper = new HermiteDataHelper();
+			test.throws(helper.update);
+			test.done();
+
 		}
 
 	}

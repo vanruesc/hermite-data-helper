@@ -90,7 +90,11 @@ export class HermiteDataHelper extends Group {
 		this.edges.name = "Edges";
 		this.normals.name = "Normals";
 
-		this.update(useMaterialIndices, useEdgeData);
+		if(this.validate() === null) {
+
+			this.update(useMaterialIndices, useEdgeData);
+
+		}
 
 	}
 
@@ -131,6 +135,49 @@ export class HermiteDataHelper extends Group {
 	}
 
 	/**
+	 * Checks if the current position, size and data is valid.
+	 *
+	 * @private
+	 * @return {Error} An error, or null if the data is valid.
+	 */
+
+	validate() {
+
+		let error = null;
+
+		if(this.cellPosition === null) {
+
+			error = new Error("The cell position is not defined");
+
+		} else if(this.cellSize <= 0) {
+
+			error = new Error("Invalid cell size: " + this.cellSize);
+
+		} else if(this.data === null) {
+
+			error = new Error("No data");
+
+		} else {
+
+			if(this.data.empty) {
+
+				error = new Error("The provided data is empty");
+
+			}
+
+			if(this.data.compressed) {
+
+				error = new Error("The provided data must be uncompressed");
+
+			}
+
+		}
+
+		return error;
+
+	}
+
+	/**
 	 * Sets the cell position, size and data.
 	 *
 	 * @param {Vector3} cellPosition - The position of the volume data cell.
@@ -152,6 +199,7 @@ export class HermiteDataHelper extends Group {
 	/**
 	 * Creates the helper geometry.
 	 *
+	 * @throws {Error} Throws an error if the current cell position, cell size or data is invalid.
 	 * @param {Boolean} [useMaterialIndices=false] - Whether points should be created for solid material indices.
 	 * @param {Boolean} [useEdgeData=true] - Whether edges with intersection points and normals should be created.
 	 * @return {HermiteDataHelper} This helper.
@@ -160,25 +208,14 @@ export class HermiteDataHelper extends Group {
 	update(useMaterialIndices = false, useEdgeData = true) {
 
 		const data = this.data;
+		const error = this.validate();
 
 		// Remove existing geometry.
 		this.dispose();
 
-		if(this.cellPosition === null) {
+		if(error !== null) {
 
-			console.error("Invalid cell position");
-
-		} else if(this.cellSize <= 0) {
-
-			console.error("Invalid cell size", this.cellSize);
-
-		} else if(data === null || data.empty) {
-
-			console.error("Invalid data", this.data);
-
-		} else if(data.compressed) {
-
-			console.error("The provided data must be uncompressed", data);
+			throw error;
 
 		} else {
 
