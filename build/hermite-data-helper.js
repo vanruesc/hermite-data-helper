@@ -1,7 +1,7 @@
 /**
- * hermite-data-helper v0.1.0 build Dec 19 2017
+ * hermite-data-helper v0.2.0 build Feb 15 2018
  * https://github.com/vanruesc/hermite-data-helper
- * Copyright 2017 Raoul van Rüschen, Zlib
+ * Copyright 2018 Raoul van Rüschen, Zlib
  */
 
 (function (global, factory) {
