@@ -1,7 +1,7 @@
 {
 	"name": "hermite-data-helper",
-	"version": "0.2.1",
-	"description": "A visualisation tool for Hermite data.",
+	"version": "0.2.2",
+	"description": "A Hermite data visualisation tool for three.js.",
 	"homepage": "https://github.com/vanruesc/hermite-data-helper",
 	"main": "build/hermite-data-helper.js",
 	"module": "src/index.js",
