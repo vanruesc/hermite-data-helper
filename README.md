@@ -4,13 +4,15 @@
 [![npm version](https://badge.fury.io/js/hermite-data-helper.svg)](http://badge.fury.io/js/hermite-data-helper) 
 [![Peer dependencies](https://img.shields.io/david/peer/vanruesc/hermite-data-helper.svg)](https://david-dm.org/vanruesc/hermite-data-helper?type=peer)
 
-A Hermite data visualisation tool for [rabbit-hole](https://github.com/vanruesc/rabbit-hole) and [three.js](https://threejs.org/).
+A Hermite data visualization tool for [rabbit-hole](https://github.com/vanruesc/rabbit-hole) and [three.js](https://threejs.org/).
 
 
 ## Installation
 
+This library requires the peer dependency [three](https://github.com/mrdoob/three.js/).
+
 ```sh
-npm install hermite-data-helper
+npm install three hermite-data-helper
 ``` 
 
 
