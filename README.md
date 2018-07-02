@@ -6,6 +6,8 @@
 
 A Hermite data visualization tool for [rabbit-hole](https://github.com/vanruesc/rabbit-hole) and [three.js](https://threejs.org/).
 
+*[API Reference](https://vanruesc.github.io/hermite-data-helper)*
+
 
 ## Installation
 

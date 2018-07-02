@@ -1,0 +1,12 @@
+{
+  "coverage": "100%",
+  "expectCount": 18,
+  "actualCount": 18,
+  "files": {
+    "src/HermiteDataHelper.js": {
+      "expectCount": 18,
+      "actualCount": 18,
+      "undocumentLines": []
+    }
+  }
+}

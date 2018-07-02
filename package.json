@@ -1,7 +1,7 @@
 {
 	"name": "hermite-data-helper",
-	"version": "0.3.0",
-	"description": "A Hermite data visualisation tool for three.js.",
+	"version": "0.4.0",
+	"description": "A Hermite data visualization tool for rabbit-hole and three.",
 	"homepage": "https://github.com/vanruesc/hermite-data-helper",
 	"main": "build/hermite-data-helper.js",
 	"module": "src/index.js",
@@ -11,7 +11,8 @@
 		"hermite",
 		"data",
 		"helper",
-		"three.js",
+		"three",
+		"rabbit-hole",
 		"3d",
 		"geometry",
 		"mesh"

@@ -1,0 +1,1087 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/HermiteDataHelper.js",
+    "content": "import {\r\n\tBufferAttribute,\r\n\tBufferGeometry,\r\n\tGroup,\r\n\tLineBasicMaterial,\r\n\tLineSegments,\r\n\tPoints,\r\n\tPointsMaterial,\r\n\tVector3,\r\n\tVertexColors\r\n} from \"three\";\r\n\r\n/**\r\n * The material value for air.\r\n *\r\n * @type {Material}\r\n * @private\r\n */\r\n\r\nlet air = 0;\r\n\r\n/**\r\n * A Hermite data helper.\r\n */\r\n\r\nexport class HermiteDataHelper extends Group {\r\n\r\n\t/**\r\n\t * Constructs a new Hermite data helper.\r\n\t *\r\n\t * @param {Vector3} cellPosition - The position of the volume data cell.\r\n\t * @param {Number} cellSize - The size of the volume data cell.\r\n\t * @param {HermiteData} data - The volume data. Must be uncompressed.\r\n\t * @param {Boolean} [useMaterialIndices=false] - Whether points should be created for solid material indices.\r\n\t * @param {Boolean} [useEdgeData=true] - Whether edges with intersection points and normals should be created.\r\n\t */\r\n\r\n\tconstructor(cellPosition = null, cellSize = 1, data = null, useMaterialIndices = false, useEdgeData = true) {\r\n\r\n\t\tsuper();\r\n\r\n\t\t/**\r\n\t\t * The name of this object.\r\n\t\t */\r\n\r\n\t\tthis.name = \"HermiteDataHelper\";\r\n\r\n\t\t/**\r\n\t\t * The position of the volume data cell.\r\n\t\t *\r\n\t\t * @type {Vector3}\r\n\t\t */\r\n\r\n\t\tthis.cellPosition = cellPosition;\r\n\r\n\t\t/**\r\n\t\t * The size of the volume data cell.\r\n\t\t *\r\n\t\t * @type {Number}\r\n\t\t */\r\n\r\n\t\tthis.cellSize = cellSize;\r\n\r\n\t\t/**\r\n\t\t * The volume data.\r\n\t\t *\r\n\t\t * @type {HermiteData}\r\n\t\t */\r\n\r\n\t\tthis.data = data;\r\n\r\n\t\t/**\r\n\t\t * The material of the grid points.\r\n\t\t *\r\n\t\t * @type {PointsMaterial}\r\n\t\t */\r\n\r\n\t\tthis.pointsMaterial = new PointsMaterial({\r\n\t\t\tvertexColors: VertexColors,\r\n\t\t\tsizeAttenuation: true,\r\n\t\t\tsize: 0.05\r\n\t\t});\r\n\r\n\t\t// Create groups for grid points, edges and normals.\r\n\t\tthis.add(new Group());\r\n\t\tthis.add(new Group());\r\n\t\tthis.add(new Group());\r\n\r\n\t\tthis.gridPoints.name = \"GridPoints\";\r\n\t\tthis.edges.name = \"Edges\";\r\n\t\tthis.normals.name = \"Normals\";\r\n\r\n\t\ttry {\r\n\r\n\t\t\t// Attempt to update right away.\r\n\t\t\tthis.update(useMaterialIndices, useEdgeData);\r\n\r\n\t\t} catch(e) {\r\n\r\n\t\t\t// Don't complain on error.\r\n\r\n\t\t}\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * The grid points.\r\n\t *\r\n\t * @type {Group}\r\n\t */\r\n\r\n\tget gridPoints() {\r\n\r\n\t\treturn this.children[0];\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * The edges.\r\n\t *\r\n\t * @type {Group}\r\n\t */\r\n\r\n\tget edges() {\r\n\r\n\t\treturn this.children[1];\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * The normals.\r\n\t *\r\n\t * @type {Group}\r\n\t */\r\n\r\n\tget normals() {\r\n\r\n\t\treturn this.children[2];\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * Checks if the current position, size and data is valid.\r\n\t *\r\n\t * @private\r\n\t * @return {Error} An error, or null if the data is valid.\r\n\t */\r\n\r\n\tvalidate() {\r\n\r\n\t\tlet error = null;\r\n\r\n\t\tif(this.cellPosition === null) {\r\n\r\n\t\t\terror = new Error(\"The cell position is not defined\");\r\n\r\n\t\t} else if(this.cellSize <= 0) {\r\n\r\n\t\t\terror = new Error(\"Invalid cell size: \" + this.cellSize);\r\n\r\n\t\t} else if(this.data === null) {\r\n\r\n\t\t\terror = new Error(\"No data\");\r\n\r\n\t\t} else {\r\n\r\n\t\t\tif(this.data.empty) {\r\n\r\n\t\t\t\terror = new Error(\"The provided data is empty\");\r\n\r\n\t\t\t}\r\n\r\n\t\t\tif(this.data.compressed) {\r\n\r\n\t\t\t\terror = new Error(\"The provided data must be uncompressed\");\r\n\r\n\t\t\t}\r\n\r\n\t\t}\r\n\r\n\t\treturn error;\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * Sets the cell position, size and data.\r\n\t *\r\n\t * @param {Vector3} cellPosition - The position of the volume data cell.\r\n\t * @param {Number} cellSize - The size of the volume data cell.\r\n\t * @param {HermiteData} data - The volume data. Must be uncompressed.\r\n\t * @return {HermiteDataHelper} This helper.\r\n\t */\r\n\r\n\tset(cellPosition, cellSize, data) {\r\n\r\n\t\tthis.cellPosition = cellPosition;\r\n\t\tthis.cellSize = cellSize;\r\n\t\tthis.data = data;\r\n\r\n\t\treturn this;\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * Creates the helper geometry.\r\n\t *\r\n\t * @throws {Error} Throws an error if the current cell position, cell size or data is invalid.\r\n\t * @param {Boolean} [useMaterialIndices=false] - Whether points should be created for solid material indices.\r\n\t * @param {Boolean} [useEdgeData=true] - Whether edges with intersection points and normals should be created.\r\n\t * @return {HermiteDataHelper} This helper.\r\n\t */\r\n\r\n\tupdate(useMaterialIndices = false, useEdgeData = true) {\r\n\r\n\t\tconst data = this.data;\r\n\t\tconst error = this.validate();\r\n\r\n\t\t// Remove existing geometry.\r\n\t\tthis.dispose();\r\n\r\n\t\tif(error !== null) {\r\n\r\n\t\t\tthrow error;\r\n\r\n\t\t} else {\r\n\r\n\t\t\tif(useMaterialIndices) {\r\n\r\n\t\t\t\tthis.createPoints(data);\r\n\r\n\t\t\t}\r\n\r\n\t\t\tif(useEdgeData && data.edgeData !== null) {\r\n\r\n\t\t\t\tthis.createEdges(data);\r\n\r\n\t\t\t}\r\n\r\n\t\t}\r\n\r\n\t\treturn this;\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * Creates points for solid material indices.\r\n\t *\r\n\t * @private\r\n\t * @param {HermiteData} data - Volume data.\r\n\t */\r\n\r\n\tcreatePoints(data) {\r\n\r\n\t\tconst materialIndices = data.materialIndices;\r\n\t\tconst n = Math.cbrt(materialIndices.length) - 1;\r\n\t\tconst s = this.cellSize;\r\n\r\n\t\tconst base = this.cellPosition;\r\n\t\tconst offset = new Vector3();\r\n\t\tconst position = new Vector3();\r\n\r\n\t\tconst color = new Float32Array([0.0, 0.0, 0.0]);\r\n\r\n\t\tconst geometry = new BufferGeometry();\r\n\t\tconst vertexCount = data.materials;\r\n\t\tconst positions = new Float32Array(vertexCount * 3);\r\n\t\tconst colors = new Float32Array(vertexCount * 3);\r\n\r\n\t\tlet x, y, z;\r\n\t\tlet i, j;\r\n\r\n\t\tfor(i = 0, j = 0, z = 0; z <= n; ++z) {\r\n\r\n\t\t\toffset.z = z * s / n;\r\n\r\n\t\t\tfor(y = 0; y <= n; ++y) {\r\n\r\n\t\t\t\toffset.y = y * s / n;\r\n\r\n\t\t\t\tfor(x = 0; x <= n; ++x) {\r\n\r\n\t\t\t\t\toffset.x = x * s / n;\r\n\r\n\t\t\t\t\tif(materialIndices[i++] !== air) {\r\n\r\n\t\t\t\t\t\tposition.addVectors(base, offset);\r\n\r\n\t\t\t\t\t\tpositions[j] = position.x; colors[j++] = color[0];\r\n\t\t\t\t\t\tpositions[j] = position.y; colors[j++] = color[1];\r\n\t\t\t\t\t\tpositions[j] = position.z; colors[j++] = color[2];\r\n\r\n\t\t\t\t\t}\r\n\r\n\t\t\t\t}\r\n\r\n\t\t\t}\r\n\r\n\t\t}\r\n\r\n\t\tgeometry.addAttribute(\"position\", new BufferAttribute(positions, 3));\r\n\t\tgeometry.addAttribute(\"color\", new BufferAttribute(colors, 3));\r\n\r\n\t\tthis.gridPoints.add(new Points(geometry, this.pointsMaterial));\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * Creates edges with intersection points and normals.\r\n\t *\r\n\t * @private\r\n\t * @param {HermiteData} data - Volume data.\r\n\t */\r\n\r\n\tcreateEdges(data) {\r\n\r\n\t\tconst edgeData = data.edgeData;\r\n\t\tconst n = Math.cbrt(data.materialIndices.length) - 1;\r\n\t\tconst s = this.cellSize;\r\n\r\n\t\tconst normalA = new Vector3();\r\n\t\tconst normalB = new Vector3();\r\n\r\n\t\tconst edgeIterators = [\r\n\t\t\tedgeData.edgesX(this.cellPosition, this.cellSize),\r\n\t\t\tedgeData.edgesY(this.cellPosition, this.cellSize),\r\n\t\t\tedgeData.edgesZ(this.cellPosition, this.cellSize)\r\n\t\t];\r\n\r\n\t\tconst axisColors = [\r\n\t\t\tnew Float32Array([0.6, 0.0, 0.0]),\r\n\t\t\tnew Float32Array([0.0, 0.6, 0.0]),\r\n\t\t\tnew Float32Array([0.0, 0.0, 0.6])\r\n\t\t];\r\n\r\n\t\tconst normalColor = new Float32Array([0.0, 1.0, 1.0]);\r\n\r\n\t\tconst lineSegmentsMaterial = new LineBasicMaterial({\r\n\t\t\tvertexColors: VertexColors\r\n\t\t});\r\n\r\n\t\tlet edgePositions, edgeColors;\r\n\t\tlet normalPositions, normalColors;\r\n\t\tlet vertexCount, edgeColor, geometry, edges, edge;\r\n\r\n\t\tlet d, i, j;\r\n\r\n\t\tfor(i = 0, j = 0, d = 0; d < 3; ++d, i = 0, j = 0) {\r\n\r\n\t\t\tedgeColor = axisColors[d];\r\n\t\t\tedges = edgeIterators[d];\r\n\r\n\t\t\t// Are there any edges for this dimension?\r\n\t\t\tif(edges.lengths.length > 0) {\r\n\r\n\t\t\t\t// There can only be one lengths entry per iterator.\r\n\t\t\t\tvertexCount = edges.lengths[0] * 2;\r\n\r\n\t\t\t\tedgePositions = new Float32Array(vertexCount * 3);\r\n\t\t\t\tedgeColors = new Float32Array(vertexCount * 3);\r\n\t\t\t\tnormalPositions = new Float32Array(vertexCount * 3);\r\n\t\t\t\tnormalColors = new Float32Array(vertexCount * 3);\r\n\r\n\t\t\t\tfor(edge of edges) {\r\n\r\n\t\t\t\t\t// Edge.\r\n\t\t\t\t\tedgePositions[i] = edge.a.x; edgeColors[i++] = edgeColor[0];\r\n\t\t\t\t\tedgePositions[i] = edge.a.y; edgeColors[i++] = edgeColor[1];\r\n\t\t\t\t\tedgePositions[i] = edge.a.z; edgeColors[i++] = edgeColor[2];\r\n\r\n\t\t\t\t\tedgePositions[i] = edge.b.x; edgeColors[i++] = edgeColor[0];\r\n\t\t\t\t\tedgePositions[i] = edge.b.y; edgeColors[i++] = edgeColor[1];\r\n\t\t\t\t\tedgePositions[i] = edge.b.z; edgeColors[i++] = edgeColor[2];\r\n\r\n\t\t\t\t\t// Normal at Zero Crossing.\r\n\t\t\t\t\tedge.computeZeroCrossingPosition(normalA);\r\n\t\t\t\t\tnormalB.copy(normalA).addScaledVector(edge.n, 0.25 * s / n);\r\n\r\n\t\t\t\t\tnormalPositions[j] = normalA.x; normalColors[j++] = normalColor[0];\r\n\t\t\t\t\tnormalPositions[j] = normalA.y; normalColors[j++] = normalColor[1];\r\n\t\t\t\t\tnormalPositions[j] = normalA.z; normalColors[j++] = normalColor[2];\r\n\r\n\t\t\t\t\tnormalPositions[j] = normalB.x; normalColors[j++] = normalColor[0];\r\n\t\t\t\t\tnormalPositions[j] = normalB.y; normalColors[j++] = normalColor[1];\r\n\t\t\t\t\tnormalPositions[j] = normalB.z; normalColors[j++] = normalColor[2];\r\n\r\n\t\t\t\t}\r\n\r\n\t\t\t\tgeometry = new BufferGeometry();\r\n\t\t\t\tgeometry.addAttribute(\"position\", new BufferAttribute(edgePositions, 3));\r\n\t\t\t\tgeometry.addAttribute(\"color\", new BufferAttribute(edgeColors, 3));\r\n\r\n\t\t\t\tthis.edges.add(new LineSegments(geometry, lineSegmentsMaterial));\r\n\r\n\t\t\t\tgeometry = new BufferGeometry();\r\n\t\t\t\tgeometry.addAttribute(\"position\", new BufferAttribute(normalPositions, 3));\r\n\t\t\t\tgeometry.addAttribute(\"color\", new BufferAttribute(normalColors, 3));\r\n\r\n\t\t\t\tthis.normals.add(new LineSegments(geometry, lineSegmentsMaterial));\r\n\r\n\t\t\t}\r\n\r\n\t\t}\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * Destroys the current helper geometry.\r\n\t */\r\n\r\n\tdispose() {\r\n\r\n\t\tlet child, children;\r\n\t\tlet i, l;\r\n\r\n\t\tfor(i = 0, l = this.children.length; i < l; ++i) {\r\n\r\n\t\t\tchild = this.children[i];\r\n\t\t\tchildren = child.children;\r\n\r\n\t\t\twhile(children.length > 0) {\r\n\r\n\t\t\t\tchildren[0].geometry.dispose();\r\n\t\t\t\tchildren[0].material.dispose();\r\n\t\t\t\tchild.remove(children[0]);\r\n\r\n\t\t\t}\r\n\r\n\t\t}\r\n\r\n\t}\r\n\r\n\t/**\r\n\t * Sets the material value for grid points that represent air.\r\n\t *\r\n\t * @type {Material}\r\n\t */\r\n\r\n\tstatic set air(value) {\r\n\r\n\t\tair = value;\r\n\r\n\t}\r\n\r\n}\r\n",
+    "static": true,
+    "longname": "D:/Sourcecode/JavaScript/hermite-data-helper/src/HermiteDataHelper.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "air",
+    "memberof": "src/HermiteDataHelper.js",
+    "static": true,
+    "longname": "src/HermiteDataHelper.js~air",
+    "access": "private",
+    "export": false,
+    "importPath": "hermite-data-helper/src/HermiteDataHelper.js",
+    "importStyle": null,
+    "description": "The material value for air.",
+    "lineNumber": 20,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Material"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "HermiteDataHelper",
+    "memberof": "src/HermiteDataHelper.js",
+    "static": true,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "access": "public",
+    "export": true,
+    "importPath": "hermite-data-helper/src/HermiteDataHelper.js",
+    "importStyle": "{HermiteDataHelper}",
+    "description": "A Hermite data helper.",
+    "lineNumber": 26,
+    "interface": false,
+    "extends": [
+      "three~Group"
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#constructor",
+    "access": "public",
+    "description": "Constructs a new Hermite data helper.",
+    "lineNumber": 38,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Vector3"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cellPosition",
+        "description": "The position of the volume data cell."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cellSize",
+        "description": "The size of the volume data cell."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "HermiteData"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "The volume data. Must be uncompressed."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "useMaterialIndices",
+        "description": "Whether points should be created for solid material indices."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "useEdgeData",
+        "description": "Whether edges with intersection points and normals should be created."
+      }
+    ]
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "name",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#name",
+    "access": "public",
+    "description": "The name of this object.",
+    "lineNumber": 46,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "member",
+    "name": "cellPosition",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#cellPosition",
+    "access": "public",
+    "description": "The position of the volume data cell.",
+    "lineNumber": 54,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Vector3"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "cellSize",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#cellSize",
+    "access": "public",
+    "description": "The size of the volume data cell.",
+    "lineNumber": 62,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "data",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#data",
+    "access": "public",
+    "description": "The volume data.",
+    "lineNumber": 70,
+    "type": {
+      "nullable": null,
+      "types": [
+        "HermiteData"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "pointsMaterial",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#pointsMaterial",
+    "access": "public",
+    "description": "The material of the grid points.",
+    "lineNumber": 78,
+    "type": {
+      "nullable": null,
+      "types": [
+        "PointsMaterial"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "get",
+    "name": "gridPoints",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#gridPoints",
+    "access": "public",
+    "description": "The grid points.",
+    "lineNumber": 112,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Group"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "get",
+    "name": "edges",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#edges",
+    "access": "public",
+    "description": "The edges.",
+    "lineNumber": 124,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Group"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "get",
+    "name": "normals",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#normals",
+    "access": "public",
+    "description": "The normals.",
+    "lineNumber": 136,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Group"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "validate",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#validate",
+    "access": "private",
+    "description": "Checks if the current position, size and data is valid.",
+    "lineNumber": 149,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "An error, or null if the data is valid."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "set",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#set",
+    "access": "public",
+    "description": "Sets the cell position, size and data.",
+    "lineNumber": 194,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Vector3"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cellPosition",
+        "description": "The position of the volume data cell."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cellSize",
+        "description": "The size of the volume data cell."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "HermiteData"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "The volume data. Must be uncompressed."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "HermiteDataHelper"
+      ],
+      "spread": false,
+      "description": "This helper."
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "update",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#update",
+    "access": "public",
+    "description": "Creates the helper geometry.",
+    "lineNumber": 213,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "useMaterialIndices",
+        "description": "Whether points should be created for solid material indices."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "useEdgeData",
+        "description": "Whether edges with intersection points and normals should be created."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "HermiteDataHelper"
+      ],
+      "spread": false,
+      "description": "This helper."
+    },
+    "throws": [
+      {
+        "types": [
+          "Error"
+        ],
+        "description": "Throws an error if the current cell position, cell size or data is invalid."
+      }
+    ]
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "createPoints",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#createPoints",
+    "access": "private",
+    "description": "Creates points for solid material indices.",
+    "lineNumber": 252,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "HermiteData"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "Volume data."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "createEdges",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#createEdges",
+    "access": "private",
+    "description": "Creates edges with intersection points and normals.",
+    "lineNumber": 314,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "HermiteData"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "Volume data."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "dispose",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper#dispose",
+    "access": "public",
+    "description": "Destroys the current helper geometry.",
+    "lineNumber": 410,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "set",
+    "name": "air",
+    "memberof": "src/HermiteDataHelper.js~HermiteDataHelper",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/HermiteDataHelper.js~HermiteDataHelper.air",
+    "access": "public",
+    "description": "Sets the material value for grid points that represent air.",
+    "lineNumber": 438,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Material"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "/**\r\n * Exposure of the library components.\r\n *\r\n * @module hermite-data-helper\r\n */\r\n\r\nexport { HermiteDataHelper as default } from \"./HermiteDataHelper.js\";\r\n",
+    "static": true,
+    "longname": "D:/Sourcecode/JavaScript/hermite-data-helper/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# Hermite Data Helper\r\n\r\n[![Build status](https://travis-ci.org/vanruesc/hermite-data-helper.svg?branch=master)](https://travis-ci.org/vanruesc/hermite-data-helper) \r\n[![npm version](https://badge.fury.io/js/hermite-data-helper.svg)](http://badge.fury.io/js/hermite-data-helper) \r\n[![Peer dependencies](https://img.shields.io/david/peer/vanruesc/hermite-data-helper.svg)](https://david-dm.org/vanruesc/hermite-data-helper?type=peer)\r\n\r\nA Hermite data visualization tool for [rabbit-hole](https://github.com/vanruesc/rabbit-hole) and [three.js](https://threejs.org/).\r\n\r\n\r\n## Installation\r\n\r\nThis library requires the peer dependency [three](https://github.com/mrdoob/three.js/).\r\n\r\n```sh\r\nnpm install three hermite-data-helper\r\n``` \r\n\r\n\r\n## Usage\r\n\r\n```javascript\r\nimport { Scene, Vector3 } from \"three\";\r\nimport { HermiteData } from \"rabbit-hole\";\r\nimport HermiteDataHelper from \"hermite-data-helper\";\r\n\r\nconst scene = new Scene();\r\nconst data = new HermiteData();\r\nconst cellPosition = new Vector3();\r\nconst cellSize = 1;\r\n\r\nconst hermiteDataHelper = new HermiteDataHelper(cellPosition, cellSize, data);\r\n\r\n// Render the helper.\r\nscene.add(hermiteDataHelper);\r\n\r\n// Access special geometry subgroups.\r\nconsole.log(hermiteDataHelper.gridPoints);\r\nconsole.log(hermiteDataHelper.edges);\r\nconsole.log(hermiteDataHelper.normals);\r\n\r\n// Use a different cell size, position and data set.\r\nhermiteDataHelper.set(otherPosition, otherSize, otherData);\r\n\r\ntry {\r\n\r\n\t// Destroy the helper geometry and rebuild grid points and edges.\r\n\thermiteDataHelper.update(true, true);\r\n\r\n} catch(e) {\r\n\r\n\t// The provided position, size or data is invalid.\r\n\r\n}\r\n\r\n// Destroy the helper geometry.\r\nhermiteDataHelper.dispose();\r\n```\r\n\r\nA full example can be found [here](https://vanruesc.github.io/rabbit-hole/public/demo/#svo).\r\n\r\n\r\n## Contributing\r\n\r\nMaintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.\r\n",
+    "longname": "D:\\Sourcecode\\JavaScript\\hermite-data-helper\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\r\n\t\"name\": \"hermite-data-helper\",\r\n\t\"version\": \"0.4.0\",\r\n\t\"description\": \"A Hermite data visualization tool for rabbit-hole and three.\",\r\n\t\"homepage\": \"https://github.com/vanruesc/hermite-data-helper\",\r\n\t\"main\": \"build/hermite-data-helper.js\",\r\n\t\"module\": \"src/index.js\",\r\n\t\"license\": \"Zlib\",\r\n\r\n\t\"keywords\": [\r\n\t\t\"hermite\",\r\n\t\t\"data\",\r\n\t\t\"helper\",\r\n\t\t\"three\",\r\n\t\t\"rabbit-hole\",\r\n\t\t\"3d\",\r\n\t\t\"geometry\",\r\n\t\t\"mesh\"\r\n\t],\r\n\r\n\t\"author\": {\r\n\t\t\"name\": \"Raoul van Rüschen\",\r\n\t\t\"email\": \"vanruesc@outlook.de\"\r\n\t},\r\n\r\n\t\"repository\": {\r\n\t\t\"type\": \"git\",\r\n\t\t\"url\": \"https://github.com/vanruesc/hermite-data-helper.git\"\r\n\t},\r\n\r\n\t\"bugs\": {\r\n\t\t\"url\": \"https://github.com/vanruesc/hermite-data-helper/issues\"\r\n\t},\r\n\r\n\t\"files\": [\r\n\t\t\"src\",\r\n\t\t\"build\"\r\n\t],\r\n\r\n\t\"scripts\": {\r\n\t\t\"lint\": \"npm run lint:lib && npm run lint:test\",\r\n\t\t\"lint:config\": \"eslint *.js\",\r\n\t\t\"lint:lib\": \"eslint src\",\r\n\t\t\"lint:test\": \"eslint test\",\r\n\t\t\"build\": \"rollup -c\",\r\n\t\t\"build:production\": \"cross-env NODE_ENV=production rollup -c\",\r\n\t\t\"doc\": \"esdoc\",\r\n\t\t\"test\": \"ava\",\r\n\t\t\"prepack\": \"npm run lint && npm run build:production\"\r\n\t},\r\n\r\n\t\"engines\": {\r\n\t\t\"node\": \">=4.0.0\",\r\n\t\t\"npm\": \">=4.0.0\"\r\n\t},\r\n\r\n\t\"ava\": {\r\n\t\t\"failFast\": true,\r\n\t\t\"files\": [\"test/**/*.js\"]\r\n\t},\r\n\r\n\t\"eslintConfig\": {\r\n\t\t\"extends\": \"delta\"\r\n\t},\r\n\r\n\t\"peerDependencies\": {\r\n\t\t\"three\": \">= 0.89.0 <= 0.94.0\"\r\n\t},\r\n\r\n\t\"devDependencies\": {\r\n\t\t\"ava\": \"0.x.x\",\r\n\t\t\"babel-core\": \"6.x.x\",\r\n\t\t\"babel-plugin-external-helpers\": \"6.x.x\",\r\n\t\t\"babel-preset-env\": \"1.x.x\",\r\n\t\t\"cross-env\": \"5.x.x\",\r\n\t\t\"esdoc\": \"1.x.x\",\r\n\t\t\"esdoc-standard-plugin\": \"1.x.x\",\r\n\t\t\"eslint\": \"5.x.x\",\r\n\t\t\"eslint-config-delta\": \"0.x.x\",\r\n\t\t\"rollup\": \"0.x.x\",\r\n\t\t\"rollup-plugin-babel\": \"3.x.x\",\r\n\t\t\"rollup-plugin-babel-minify\": \"5.x.x\",\r\n\t\t\"rollup-plugin-node-resolve\": \"3.x.x\",\r\n\t\t\"three\": \"0.94.x\"\r\n\t}\r\n}\r\n",
+    "longname": "D:\\Sourcecode\\JavaScript\\hermite-data-helper\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
