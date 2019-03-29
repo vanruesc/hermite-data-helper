@@ -1,6 +1,6 @@
 {
 	"name": "hermite-data-helper",
-	"version": "0.12.0",
+	"version": "0.13.0",
 	"description": "A Hermite data visualization tool for rabbit-hole and three.",
 	"homepage": "https://github.com/vanruesc/hermite-data-helper",
 	"main": "build/hermite-data-helper.js",
@@ -61,7 +61,7 @@
 	},
 
 	"peerDependencies": {
-		"three": ">= 0.89.0 < 0.103.0"
+		"three": ">= 0.89.0 < 0.104.0"
 	},
 
 	"devDependencies": {
@@ -75,8 +75,8 @@
 		"eslint-config-delta": "0.x.x",
 		"rollup": "1.x.x",
 		"rollup-plugin-babel": "4.x.x",
-		"rollup-plugin-babel-minify": "7.x.x",
+		"rollup-plugin-babel-minify": "8.x.x",
 		"rollup-plugin-node-resolve": "4.x.x",
-		"three": "0.102.x"
+		"three": "0.103.x"
 	}
 }
