@@ -1,5 +1,5 @@
 /**
- * hermite-data-helper v0.13.0 build Sat Mar 30 2019
+ * hermite-data-helper v0.14.0 build Thu Apr 25 2019
  * https://github.com/vanruesc/hermite-data-helper
  * Copyright 2019 Raoul van Rüschen, Zlib
  */
@@ -286,8 +286,8 @@
               _iteratorError = err;
             } finally {
               try {
-                if (!_iteratorNormalCompletion && _iterator.return != null) {
-                  _iterator.return();
+                if (!_iteratorNormalCompletion && _iterator["return"] != null) {
+                  _iterator["return"]();
                 }
               } finally {
                 if (_didIteratorError) {

@@ -1,8 +1,8 @@
 # Hermite Data Helper
 
 [![Build status](https://travis-ci.org/vanruesc/hermite-data-helper.svg?branch=master)](https://travis-ci.org/vanruesc/hermite-data-helper) 
-[![npm version](https://badge.fury.io/js/hermite-data-helper.svg)](http://badge.fury.io/js/hermite-data-helper) 
-[![Peer dependencies](https://img.shields.io/david/peer/vanruesc/hermite-data-helper.svg)](https://david-dm.org/vanruesc/hermite-data-helper?type=peer)
+[![npm version](https://badgen.net/npm/v/hermite-data-helper?color=green)](https://www.npmjs.com/package/hermite-data-helper)
+[![Peer dependencies](https://david-dm.org/vanruesc/hermite-data-helper/peer-status.svg)](https://david-dm.org/vanruesc/hermite-data-helper?type=peer)
 
 A Hermite data visualization tool for [rabbit-hole](https://github.com/vanruesc/rabbit-hole) and [three.js](https://threejs.org/).
 
