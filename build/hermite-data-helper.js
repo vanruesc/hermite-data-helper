@@ -1,5 +1,5 @@
 /**
- * hermite-data-helper v0.19.0 build Tue Oct 01 2019
+ * hermite-data-helper v0.20.0 build Wed Oct 30 2019
  * https://github.com/vanruesc/hermite-data-helper
  * Copyright 2019 Raoul van Rüschen, Zlib
  */
@@ -7,7 +7,7 @@
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('three')) :
   typeof define === 'function' && define.amd ? define(['three'], factory) :
   (global = global || self, global.HERMITEDATAHELPER = factory(global.THREE));
-}(this, function (three) { 'use strict';
+}(this, (function (three) { 'use strict';
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -351,4 +351,4 @@
 
   return HermiteDataHelper;
 
-}));
+})));
