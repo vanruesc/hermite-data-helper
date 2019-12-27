@@ -1,5 +1,5 @@
 import test from "ava";
-import HermiteDataHelper from "../build/hermite-data-helper.js";
+import { HermiteDataHelper } from "../build/hermite-data-helper.js";
 
 test("can be instantiated", t => {
 

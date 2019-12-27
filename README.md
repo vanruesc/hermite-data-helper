@@ -23,7 +23,7 @@ npm install three hermite-data-helper
 ```javascript
 import { Scene, Vector3 } from "three";
 import { HermiteData } from "rabbit-hole";
-import HermiteDataHelper from "hermite-data-helper";
+import { HermiteDataHelper } from "hermite-data-helper";
 
 const scene = new Scene();
 const data = new HermiteData();
