@@ -1,51 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/HermiteDataHelper.js | hermite-data-helper</title>
-  <link type="text/css" rel="stylesheet" href="css/style.css">
-  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
-  <script src="script/prettify/prettify.js"></script>
-  <script src="script/manual.js"></script>
-<meta name="description" content="A Hermite data visualization tool for rabbit-hole and three."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="hermite-data-helper"><meta property="twitter:description" content="A Hermite data visualization tool for rabbit-hole and three."></head>
-<body class="layout-container" data-ice="rootContainer">
-
-<header>
-  <a href="./">Home</a>
-  
-  <a href="identifiers.html">Reference</a>
-  <a href="source.html">Source</a>
-  
-  <div class="search-box">
-  <span>
-    <img src="./image/search.png">
-    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
-  </span>
-    <ul class="search-result"></ul>
-  </div>
-<a style="position:relative; top:3px;" href="https://github.com/vanruesc/hermite-data-helper.git"><img width="20px" src="./image/github.png"></a></header>
-
-<nav class="navigation" data-ice="nav"><div>
-  <ul>
-    
-  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/HermiteDataHelper.js~HermiteDataHelper.html">HermiteDataHelper</a></span></span></li>
-</ul>
-</div>
-</nav>
-
-<div class="content" data-ice="content"><h1 data-ice="title">src/HermiteDataHelper.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {
-	BufferAttribute,
-	BufferGeometry,
-	Group,
-	LineBasicMaterial,
-	LineSegments,
-	Points,
-	PointsMaterial,
-	Vector3,
-	VertexColors
-} from &quot;three&quot;;
+/**
+ * hermite-data-helper v1.0.0 build Sat Dec 28 2019
+ * https://github.com/vanruesc/hermite-data-helper
+ * Copyright 2019 Raoul van Rüschen, Zlib
+ */
+import { Group, PointsMaterial, VertexColors, Vector3, BufferGeometry, BufferAttribute, Points, LineBasicMaterial, LineSegments } from 'three';
 
 /**
  * The material value for air.
@@ -60,7 +18,7 @@ let air = 0;
  * A Hermite data helper.
  */
 
-export class HermiteDataHelper extends Group {
+class HermiteDataHelper extends Group {
 
 	/**
 	 * Constructs a new Hermite data helper.
@@ -80,7 +38,7 @@ export class HermiteDataHelper extends Group {
 		 * The name of this object.
 		 */
 
-		this.name = &quot;HermiteDataHelper&quot;;
+		this.name = "HermiteDataHelper";
 
 		/**
 		 * The position of the volume data cell.
@@ -123,9 +81,9 @@ export class HermiteDataHelper extends Group {
 		this.add(new Group());
 		this.add(new Group());
 
-		this.gridPoints.name = &quot;GridPoints&quot;;
-		this.edges.name = &quot;Edges&quot;;
-		this.normals.name = &quot;Normals&quot;;
+		this.gridPoints.name = "GridPoints";
+		this.edges.name = "Edges";
+		this.normals.name = "Normals";
 
 		try {
 
@@ -134,7 +92,7 @@ export class HermiteDataHelper extends Group {
 
 		} catch(e) {
 
-			// Don&apos;t complain on error.
+			// Don't complain on error.
 
 		}
 
@@ -189,27 +147,27 @@ export class HermiteDataHelper extends Group {
 
 		if(this.cellPosition === null) {
 
-			error = new Error(&quot;The cell position is not defined&quot;);
+			error = new Error("The cell position is not defined");
 
-		} else if(this.cellSize &lt;= 0) {
+		} else if(this.cellSize <= 0) {
 
-			error = new Error(&quot;Invalid cell size: &quot; + this.cellSize);
+			error = new Error("Invalid cell size: " + this.cellSize);
 
 		} else if(this.data === null) {
 
-			error = new Error(&quot;No data&quot;);
+			error = new Error("No data");
 
 		} else {
 
 			if(this.data.empty) {
 
-				error = new Error(&quot;The provided data is empty&quot;);
+				error = new Error("The provided data is empty");
 
 			}
 
 			if(this.data.compressed) {
 
-				error = new Error(&quot;The provided data must be uncompressed&quot;);
+				error = new Error("The provided data must be uncompressed");
 
 			}
 
@@ -267,7 +225,7 @@ export class HermiteDataHelper extends Group {
 
 			}
 
-			if(useEdgeData &amp;&amp; data.edgeData !== null) {
+			if(useEdgeData && data.edgeData !== null) {
 
 				this.createEdges(data);
 
@@ -306,15 +264,15 @@ export class HermiteDataHelper extends Group {
 		let x, y, z;
 		let i, j;
 
-		for(i = 0, j = 0, z = 0; z &lt;= n; ++z) {
+		for(i = 0, j = 0, z = 0; z <= n; ++z) {
 
 			offset.z = z * s / n;
 
-			for(y = 0; y &lt;= n; ++y) {
+			for(y = 0; y <= n; ++y) {
 
 				offset.y = y * s / n;
 
-				for(x = 0; x &lt;= n; ++x) {
+				for(x = 0; x <= n; ++x) {
 
 					offset.x = x * s / n;
 
@@ -334,8 +292,8 @@ export class HermiteDataHelper extends Group {
 
 		}
 
-		geometry.setAttribute(&quot;position&quot;, new BufferAttribute(positions, 3));
-		geometry.setAttribute(&quot;color&quot;, new BufferAttribute(colors, 3));
+		geometry.setAttribute("position", new BufferAttribute(positions, 3));
+		geometry.setAttribute("color", new BufferAttribute(colors, 3));
 
 		this.gridPoints.add(new Points(geometry, this.pointsMaterial));
 
@@ -381,13 +339,13 @@ export class HermiteDataHelper extends Group {
 
 		let d, i, j;
 
-		for(i = 0, j = 0, d = 0; d &lt; 3; ++d, i = 0, j = 0) {
+		for(i = 0, j = 0, d = 0; d < 3; ++d, i = 0, j = 0) {
 
 			edgeColor = axisColors[d];
 			edges = edgeIterators[d];
 
 			// Are there any edges for this dimension?
-			if(edges.lengths.length &gt; 0) {
+			if(edges.lengths.length > 0) {
 
 				// There can only be one lengths entry per iterator.
 				vertexCount = edges.lengths[0] * 2;
@@ -423,14 +381,14 @@ export class HermiteDataHelper extends Group {
 				}
 
 				geometry = new BufferGeometry();
-				geometry.setAttribute(&quot;position&quot;, new BufferAttribute(edgePositions, 3));
-				geometry.setAttribute(&quot;color&quot;, new BufferAttribute(edgeColors, 3));
+				geometry.setAttribute("position", new BufferAttribute(edgePositions, 3));
+				geometry.setAttribute("color", new BufferAttribute(edgeColors, 3));
 
 				this.edges.add(new LineSegments(geometry, lineSegmentsMaterial));
 
 				geometry = new BufferGeometry();
-				geometry.setAttribute(&quot;position&quot;, new BufferAttribute(normalPositions, 3));
-				geometry.setAttribute(&quot;color&quot;, new BufferAttribute(normalColors, 3));
+				geometry.setAttribute("position", new BufferAttribute(normalPositions, 3));
+				geometry.setAttribute("color", new BufferAttribute(normalColors, 3));
 
 				this.normals.add(new LineSegments(geometry, lineSegmentsMaterial));
 
@@ -449,12 +407,12 @@ export class HermiteDataHelper extends Group {
 		let child, children;
 		let i, l;
 
-		for(i = 0, l = this.children.length; i &lt; l; ++i) {
+		for(i = 0, l = this.children.length; i < l; ++i) {
 
 			child = this.children[i];
 			children = child.children;
 
-			while(children.length &gt; 0) {
+			while(children.length > 0) {
 
 				children[0].geometry.dispose();
 				children[0].material.dispose();
@@ -479,20 +437,5 @@ export class HermiteDataHelper extends Group {
 	}
 
 }
-</code></pre>
 
-</div>
-
-<footer class="footer">
-  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
-</footer>
-
-<script src="script/search_index.js"></script>
-<script src="script/search.js"></script>
-<script src="script/pretty-print.js"></script>
-<script src="script/inherited-summary.js"></script>
-<script src="script/test-summary.js"></script>
-<script src="script/inner-link.js"></script>
-<script src="script/patch-for-local.js"></script>
-</body>
-</html>
+export default HermiteDataHelper;

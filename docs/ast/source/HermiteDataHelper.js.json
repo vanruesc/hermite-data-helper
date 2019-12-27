@@ -10319,9 +10319,9 @@
                                 "line": 300,
                                 "column": 23
                               },
-                              "identifierName": "addAttribute"
+                              "identifierName": "setAttribute"
                             },
-                            "name": "addAttribute"
+                            "name": "setAttribute"
                           },
                           "computed": false
                         },
@@ -10492,9 +10492,9 @@
                                 "line": 301,
                                 "column": 23
                               },
-                              "identifierName": "addAttribute"
+                              "identifierName": "setAttribute"
                             },
-                            "name": "addAttribute"
+                            "name": "setAttribute"
                           },
                           "computed": false
                         },
@@ -19017,9 +19017,9 @@
                                             "line": 389,
                                             "column": 25
                                           },
-                                          "identifierName": "addAttribute"
+                                          "identifierName": "setAttribute"
                                         },
-                                        "name": "addAttribute"
+                                        "name": "setAttribute"
                                       },
                                       "computed": false
                                     },
@@ -19190,9 +19190,9 @@
                                             "line": 390,
                                             "column": 25
                                           },
-                                          "identifierName": "addAttribute"
+                                          "identifierName": "setAttribute"
                                         },
-                                        "name": "addAttribute"
+                                        "name": "setAttribute"
                                       },
                                       "computed": false
                                     },
@@ -19625,9 +19625,9 @@
                                             "line": 395,
                                             "column": 25
                                           },
-                                          "identifierName": "addAttribute"
+                                          "identifierName": "setAttribute"
                                         },
-                                        "name": "addAttribute"
+                                        "name": "setAttribute"
                                       },
                                       "computed": false
                                     },
@@ -19798,9 +19798,9 @@
                                             "line": 396,
                                             "column": 25
                                           },
-                                          "identifierName": "addAttribute"
+                                          "identifierName": "setAttribute"
                                         },
-                                        "name": "addAttribute"
+                                        "name": "setAttribute"
                                       },
                                       "computed": false
                                     },
@@ -41690,7 +41690,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "addAttribute",
+      "value": "setAttribute",
       "start": 5574,
       "end": 5586,
       "loc": {
@@ -42080,7 +42080,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "addAttribute",
+      "value": "setAttribute",
       "start": 5647,
       "end": 5659,
       "loc": {
@@ -58523,7 +58523,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "addAttribute",
+      "value": "setAttribute",
       "start": 8420,
       "end": 8432,
       "loc": {
@@ -58913,7 +58913,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "addAttribute",
+      "value": "setAttribute",
       "start": 8499,
       "end": 8511,
       "loc": {
@@ -59876,7 +59876,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "addAttribute",
+      "value": "setAttribute",
       "start": 8685,
       "end": 8697,
       "loc": {
@@ -60266,7 +60266,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "addAttribute",
+      "value": "setAttribute",
       "start": 8766,
       "end": 8778,
       "loc": {

@@ -1,8 +1,8 @@
 window.esdocSearchIndex = [
   [
-    "hermite-data-helper/src/hermitedatahelper.js~hermitedatahelper",
+    "hermite-data-helper~hermitedatahelper",
     "class/src/HermiteDataHelper.js~HermiteDataHelper.html",
-    "<span>HermiteDataHelper</span> <span class=\"search-result-import-path\">hermite-data-helper/src/HermiteDataHelper.js</span>",
+    "<span>HermiteDataHelper</span> <span class=\"search-result-import-path\">hermite-data-helper</span>",
     "class"
   ],
   [
@@ -312,18 +312,6 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "src/hermitedatahelper.js~hermitedatahelper#createedges",
-    "class/src/HermiteDataHelper.js~HermiteDataHelper.html#instance-method-createEdges",
-    "src/HermiteDataHelper.js~HermiteDataHelper#createEdges",
-    "method"
-  ],
-  [
-    "src/hermitedatahelper.js~hermitedatahelper#createpoints",
-    "class/src/HermiteDataHelper.js~HermiteDataHelper.html#instance-method-createPoints",
-    "src/HermiteDataHelper.js~HermiteDataHelper#createPoints",
-    "method"
-  ],
-  [
     "src/hermitedatahelper.js~hermitedatahelper#data",
     "class/src/HermiteDataHelper.js~HermiteDataHelper.html#instance-member-data",
     "src/HermiteDataHelper.js~HermiteDataHelper#data",
@@ -375,12 +363,6 @@ window.esdocSearchIndex = [
     "src/hermitedatahelper.js~hermitedatahelper#update",
     "class/src/HermiteDataHelper.js~HermiteDataHelper.html#instance-method-update",
     "src/HermiteDataHelper.js~HermiteDataHelper#update",
-    "method"
-  ],
-  [
-    "src/hermitedatahelper.js~hermitedatahelper#validate",
-    "class/src/HermiteDataHelper.js~HermiteDataHelper.html#instance-method-validate",
-    "src/HermiteDataHelper.js~HermiteDataHelper#validate",
     "method"
   ],
   [
