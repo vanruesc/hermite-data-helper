@@ -4,9 +4,8 @@
 	"description": "A Hermite data visualization tool for rabbit-hole and three.",
 	"homepage": "https://github.com/vanruesc/hermite-data-helper",
 	"main": "build/hermite-data-helper.js",
-	"module": "src/index.js",
+	"module": "build/hermite-data-helper.esm.js",
 	"license": "Zlib",
-
 	"keywords": [
 		"hermite",
 		"data",
@@ -17,26 +16,20 @@
 		"geometry",
 		"mesh"
 	],
-
 	"author": {
 		"name": "Raoul van Rüschen",
 		"email": "vanruesc@outlook.de"
 	},
-
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/vanruesc/hermite-data-helper.git"
 	},
-
 	"bugs": {
 		"url": "https://github.com/vanruesc/hermite-data-helper/issues"
 	},
-
 	"files": [
-		"src",
 		"build"
 	],
-
 	"scripts": {
 		"ava": "ava",
 		"lint": "npm run lint:lib && npm run lint:test",
@@ -45,38 +38,36 @@
 		"lint:test": "eslint test",
 		"build": "rollup -c",
 		"build:production": "cross-env NODE_ENV=production rollup -c",
+		"watch": "rollup -c --watch",
 		"doc": "esdoc",
 		"pretest": "npm run lint && npm run build:production",
-		"test": "npm run ava",
-		"prepack": "npm test"
+		"test": "ava",
+		"prepack": "npm test && npm run doc"
 	},
-
 	"ava": {
 		"failFast": true,
 		"files": ["test/**/*.js"]
 	},
-
 	"eslintConfig": {
-		"extends": "delta"
+		"extends": "aether"
 	},
-
 	"peerDependencies": {
 		"three": ">= 0.89.0 < 0.111.0"
 	},
-
 	"devDependencies": {
 		"@babel/core": "7.x.x",
 		"@babel/preset-env": "7.x.x",
+		"@rollup/plugin-node-resolve": "6.x.x",
 		"ava": "2.x.x",
 		"cross-env": "6.x.x",
 		"esdoc": "1.x.x",
+		"esdoc-importpath-plugin": "1.x.x",
 		"esdoc-standard-plugin": "1.x.x",
 		"eslint": "6.x.x",
-		"eslint-config-delta": "1.x.x",
+		"eslint-config-aether": "1.x.x",
 		"rollup": "1.x.x",
 		"rollup-plugin-babel": "4.x.x",
 		"rollup-plugin-babel-minify": "9.x.x",
-		"rollup-plugin-node-resolve": "5.x.x",
-		"three": "0.110.x"
+		"three": "0.112.x"
 	}
 }
