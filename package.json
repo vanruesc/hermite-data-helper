@@ -52,7 +52,7 @@
 		"extends": "aether"
 	},
 	"peerDependencies": {
-		"three": ">= 0.89.0 < 0.111.0"
+		"three": ">= 0.110.0 < 0.113.0"
 	},
 	"devDependencies": {
 		"@babel/core": "7.x.x",
