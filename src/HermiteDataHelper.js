@@ -297,8 +297,8 @@ export class HermiteDataHelper extends Group {
 
 		}
 
-		geometry.addAttribute("position", new BufferAttribute(positions, 3));
-		geometry.addAttribute("color", new BufferAttribute(colors, 3));
+		geometry.setAttribute("position", new BufferAttribute(positions, 3));
+		geometry.setAttribute("color", new BufferAttribute(colors, 3));
 
 		this.gridPoints.add(new Points(geometry, this.pointsMaterial));
 
@@ -386,14 +386,14 @@ export class HermiteDataHelper extends Group {
 				}
 
 				geometry = new BufferGeometry();
-				geometry.addAttribute("position", new BufferAttribute(edgePositions, 3));
-				geometry.addAttribute("color", new BufferAttribute(edgeColors, 3));
+				geometry.setAttribute("position", new BufferAttribute(edgePositions, 3));
+				geometry.setAttribute("color", new BufferAttribute(edgeColors, 3));
 
 				this.edges.add(new LineSegments(geometry, lineSegmentsMaterial));
 
 				geometry = new BufferGeometry();
-				geometry.addAttribute("position", new BufferAttribute(normalPositions, 3));
-				geometry.addAttribute("color", new BufferAttribute(normalColors, 3));
+				geometry.setAttribute("position", new BufferAttribute(normalPositions, 3));
+				geometry.setAttribute("color", new BufferAttribute(normalColors, 3));
 
 				this.normals.add(new LineSegments(geometry, lineSegmentsMaterial));
 
