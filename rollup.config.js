@@ -1,6 +1,6 @@
+import resolve from "@rollup/plugin-node-resolve";
 import babel from "rollup-plugin-babel";
 import minify from "rollup-plugin-babel-minify";
-import resolve from "rollup-plugin-node-resolve";
 
 const pkg = require("./package.json");
 const date = (new Date()).toDateString();
@@ -11,35 +11,63 @@ const banner = `/**
  * Copyright ${date.slice(-4)} ${pkg.author.name}, ${pkg.license}
  */`;
 
+const production = (process.env.NODE_ENV === "production");
+const external = Object.keys(pkg.peerDependencies);
+const globals = Object.assign({}, ...external.map((value) => ({
+	[value]: value.replace(/-/g, "").toUpperCase()
+})));
+
 const lib = {
 
-	input: pkg.module,
-	output: {
-		file: "build/" + pkg.name + ".js",
-		format: "umd",
-		name: pkg.name.replace(/-/g, "").toUpperCase(),
-		banner: banner,
-		globals: { three: "THREE" }
+	module: {
+		input: "src/index.js",
+		external,
+		plugins: [resolve()],
+		output: [{
+			file: pkg.module,
+			format: "esm",
+			globals,
+			banner
+		}, {
+			file: pkg.main,
+			format: "esm",
+			globals
+		}].concat(production ? [{
+			file: pkg.main.replace(".js", ".min.js"),
+			format: "esm",
+			globals
+		}] : [])
 	},
 
-	external: ["three"],
-	plugins: [resolve()].concat(process.env.NODE_ENV === "production" ? [babel()] : [])
+	main: {
+		input: production ? pkg.main : "src/index.js",
+		external,
+		plugins: production ? [babel()] : [],
+		output: {
+			file: pkg.main,
+			format: "umd",
+			name: pkg.name.replace(/-/g, "").toUpperCase(),
+			globals,
+			banner
+		}
+	},
+
+	min: {
+		input: pkg.main.replace(".js", ".min.js"),
+		external,
+		plugins: [minify({
+			bannerNewLine: true,
+			comments: false
+		}), babel()],
+		output: {
+			file: pkg.main.replace(".js", ".min.js"),
+			format: "umd",
+			name: pkg.name.replace(/-/g, "").toUpperCase(),
+			globals,
+			banner
+		}
+	}
 
 };
 
-export default [lib].concat((process.env.NODE_ENV === "production") ? [
-
-	Object.assign({}, lib, {
-
-		output: Object.assign({}, lib.output, {
-			file: "build/" + pkg.name + ".min.js"
-		}),
-
-		plugins: [resolve(), babel(), minify({
-			bannerNewLine: true,
-			comments: false
-		})]
-
-	})
-
-] : []);
+export default (production ? [lib.module, lib.main, lib.min] : [lib.main]);
