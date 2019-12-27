@@ -1,5 +1,5 @@
 /**
- * hermite-data-helper v1.0.0 build Sat Dec 28 2019
+ * hermite-data-helper v1.0.1 build Sat Dec 28 2019
  * https://github.com/vanruesc/hermite-data-helper
  * Copyright 2019 Raoul van Rüschen, Zlib
  */
@@ -438,4 +438,4 @@ class HermiteDataHelper extends Group {
 
 }
 
-export default HermiteDataHelper;
+export { HermiteDataHelper };
