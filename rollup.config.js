@@ -43,7 +43,7 @@ const lib = {
 	main: {
 		input: production ? pkg.main : "src/index.js",
 		external,
-		plugins: production ? [babel()] : [],
+		plugins: production ? [babel()] : [resolve()],
 		output: {
 			file: pkg.main,
 			format: "umd",
