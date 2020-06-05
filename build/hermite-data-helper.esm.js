@@ -1,5 +1,5 @@
 /**
- * hermite-data-helper v1.0.5 build Fri May 01 2020
+ * hermite-data-helper v1.0.6 build Fri Jun 05 2020
  * https://github.com/vanruesc/hermite-data-helper
  * Copyright 2020 Raoul van Rüschen
  * @license Zlib
